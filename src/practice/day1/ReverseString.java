@@ -10,7 +10,7 @@ public class ReverseString {
         System.out.println("Enter the string : ");
         String str = sc.nextLine();
 
-        if(str.length() == 0) {
+        if(str.isEmpty()) {
             System.out.println("Empty string");
             return;
         }
