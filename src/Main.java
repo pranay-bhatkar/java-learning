@@ -1,6 +1,5 @@
-import practice.day2.StringMoreThanFive;
+import leetcodeDailyQuestion.TwoSum;
 
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -51,12 +50,44 @@ public class Main {
 //            System.out.println(str + " not a palindrome");
 //        }
 
-        List<String> inputList = List.of("pranay", "rahul", "ram", "rakesh");
+//        List<String> inputList = List.of("pranay", "rahul", "ram", "rakesh");
+//
+//        List<String> filtered = (StringMoreThanFive.filterStrings(inputList));
+//
+//        for (String s : filtered) {
+//            System.out.println(s);
+//        }
 
-        List<String> filtered = (StringMoreThanFive.filterStrings(inputList));
+//        int num[] = {5, 9, 3, 6, 2, 1};
+//
+//        int[] asc = SortArray.sortArrayAscending(num);
+//
+//        for (int n : asc) {
+//            System.out.print(n + " ");
+//        }
+//        System.out.println();
+//
+//        int[] desc = SortArray.sortArrayDescending(num);
+//        for (int b : desc) {
+//            System.out.print(b + " ");
+//        }
+//
 
-        for (String s : filtered) {
-            System.out.println(s);
+
+//
+//        String input = sc.next();
+//        System.out.println(Calculator.calculator(10, 2, input));
+
+//        int count = MaxFreqSumVC.maxFreqSumVC("success e s");
+//        System.out.println("sum of vowels and consonants frequency : " + count);
+
+
+        int num[] = {1, 4, 5, 7};
+        int target = 8;
+        int[] result = TwoSum.twoSum(num, target);
+
+        if (result.length > 0) {
+            System.out.println("indices [ " + result[0] + "," + result[1] + " ]");
         }
     }
 }
