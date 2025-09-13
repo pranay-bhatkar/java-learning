@@ -1,0 +1,41 @@
+Hashing
+    Map =>
+        1. HashMap
+        2. LinkedMap
+        3. TreeMap
+
+    Set =>
+        1. HasSet
+        2.LinkedSet
+        3.TreeSet
+
+
+Map
+operation like:
+              1. insert
+              2. remove
+              3. search
+                    TOC : O(1)
+
+
+HasMap => stores the table of information.
+- it is unordered
+- if we do get operation, on such a key who is not define it return "null"
+
+
+    we can visualize in :
+        1. table format
+        2. nodes format
+
+ex. Menu
+    Key     Value
+    Tea     10
+    Samosa  15
+    Pizza   100
+    Burger  150
+
+ (key : value) pair
+ key -> unique
+ value -> no unique (may repeated)
+
+ implementation hashMap -> read more on internal working
