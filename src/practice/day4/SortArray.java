@@ -29,4 +29,22 @@ public class SortArray {
         }
         return num;
     }
+
+    public static void main(String args[]) {
+        int num[] = {5, 9, 2, 4, 3, 1};
+
+        int asc[] = sortArrayAscending(num);
+
+        for (int a : asc) {
+            System.out.print(a + " ");
+        }
+        System.out.println();
+
+
+        int desc[] = sortArrayDescending(num);
+
+        for (int d : desc) {
+            System.out.print(d + " ");
+        }
+    }
 }

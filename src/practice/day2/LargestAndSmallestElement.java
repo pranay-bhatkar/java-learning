@@ -9,7 +9,11 @@ public class LargestAndSmallestElement {
 //        System.out.println("largest element :" + arr[arr.length-1]);
 //    }
 
-    public static void findLargestAndSmallestElement(int arr[]) {
+
+    public static void main(String args[]) {
+        int arr[] = {8, 6, 2, 3, 4, 9, 0};
+
+
         int smallest = arr[0];
         int largest = arr[0];
 
@@ -23,5 +27,7 @@ public class LargestAndSmallestElement {
         }
         System.out.println("Smallest element: " + smallest);
         System.out.println("Largest element: " + largest);
+
+
     }
 }

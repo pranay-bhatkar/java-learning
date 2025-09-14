@@ -36,4 +36,12 @@ public class MaxFreqSumVC {
         // return sum of both max
         return maxVowel + maxConsonant;
     }
+
+    public static void main(String args[]) {
+        String s = "iammmuunnnnnnnnniverse";
+        int count = maxFreqSumVC(s);
+        System.out.println(count);
+
+    }
+
 }

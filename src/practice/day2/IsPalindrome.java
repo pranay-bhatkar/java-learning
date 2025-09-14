@@ -14,4 +14,14 @@ public class IsPalindrome {
         }
         return true;
     }
+
+
+    public static void main(String args[]) {
+        String str = "bob";
+        System.out.println(str.length());
+        boolean result = isPalindrome(str);
+        System.out.println(result);
+
+
+    }
 }

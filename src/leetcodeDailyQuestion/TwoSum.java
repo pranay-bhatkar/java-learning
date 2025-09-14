@@ -14,4 +14,15 @@ public class TwoSum {
         }
         return new int[]{};
     }
+
+
+    public static void main(String args[]) {
+        int num[] = {1, 4, 7};
+        int target = 5;
+        int[] result = twoSum(num, target);
+
+        if (result.length > 0) {
+            System.out.println("indices [ " + result[0] + "," + result[1] + " ]");
+        }
+    }
 }

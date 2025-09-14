@@ -28,4 +28,13 @@ public class CountVowelsAndConsonants {
         }
         return count;
     }
+
+    public static void main(String args[]) {
+        String str = "Prana";
+
+        System.out.println(countVowels(str));
+        System.out.println(countConsonants(str));
+
+        System.out.println(countVowels(str) + countConsonants(str));
+    }
 }

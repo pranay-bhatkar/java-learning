@@ -1,5 +1,3 @@
-import leetcodeDailyQuestion.TwoSum;
-
 import java.util.Scanner;
 
 public class Main {
@@ -11,7 +9,6 @@ public class Main {
 //        ReverseString.twoPointerMethod();
 //        System.out.println(ReverseString.recursiveMethod("pray"));
 //
-//
 //        System.out.println(IsPrimeNumber.isPrimeNumber(4, 2));
 //
 //        System.out.println(Factorial.iterativeFactorial(4));
@@ -22,11 +19,12 @@ public class Main {
 //        int n = 5;
 //        int[] series = FibonacciSeries.iterativeFibonacci(5);
 //
+//
 //        System.out.print("Fibonacci series up to n = " + n + ": ");
 //        for (int num : series) {
 //            System.out.print(num + " ");
 //        }
-//
+
 //        Day 2
 //
 //        System.out.println("Enter the string :");
@@ -36,11 +34,11 @@ public class Main {
 //        int consonants = CountVowelsAndConsonants.countConsonants(str);
 //
 //        System.out.println("Vowels : " + vowels + "\n" + "consonants : " + consonants);
-//
+
 //        int[] arr = {8, 3, 6, 9, 4, 2, 4, 10};
 //        LargestAndSmallestElement.findLargestAndSmallestElement(arr);
-//
-//
+
+
 //        System.out.println("Enter the string :");
 //
 //        String str = sc.next();
@@ -58,6 +56,7 @@ public class Main {
 //            System.out.println(s);
 //        }
 
+
 //        int num[] = {5, 9, 3, 6, 2, 1};
 //
 //        int[] asc = SortArray.sortArrayAscending(num);
@@ -74,20 +73,19 @@ public class Main {
 //
 
 
-//
 //        String input = sc.next();
 //        System.out.println(Calculator.calculator(10, 2, input));
-
+//
 //        int count = MaxFreqSumVC.maxFreqSumVC("success e s");
 //        System.out.println("sum of vowels and consonants frequency : " + count);
 
 
-        int num[] = {1, 4, 5, 7};
-        int target = 8;
-        int[] result = TwoSum.twoSum(num, target);
-
-        if (result.length > 0) {
-            System.out.println("indices [ " + result[0] + "," + result[1] + " ]");
-        }
+//        int num[] = {1, 4, 5, 7};
+//        int target = 8;
+//        int[] result = TwoSum.twoSum(num, target);
+//
+//        if (result.length > 0) {
+//            System.out.println("indices [ " + result[0] + "," + result[1] + " ]");
+//        }
     }
 }
