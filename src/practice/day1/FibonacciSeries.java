@@ -34,7 +34,7 @@ public class FibonacciSeries {
 //    }
 
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int n = 10;
         int[] series = iterativeFibonacci(n);
 
